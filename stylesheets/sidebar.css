@@ -17,6 +17,7 @@ nav p {
   margin: 0;
   font-weight: bold;
   font-size: 14px;
+  line-height: 16pt;
 }
 nav a {
   text-decoration: none;
@@ -25,10 +26,11 @@ nav a {
 nav ul {
   list-style-type: none;
   font-size: 14px;
+
 }
 nav li {
   margin: 10px 0;
-  line-height: 20px;
+  line-height: 16px;
 }
 nav ul > ul {
   margin-left: 10px;
