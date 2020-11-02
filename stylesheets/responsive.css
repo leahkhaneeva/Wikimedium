@@ -1,0 +1,44 @@
+@media all and (max-width: 1340px) {
+	.sidebar {
+		display: none;
+	}
+	 article img { width: 100%;}
+	 article h1 { font-size: 31px;}
+	 article h2 { font-size: 24px;}
+	 article h3 { font-size: 18px;}
+	 article p { font-size: 16px;}
+}
+@media all and (max-width: 1020px) {
+  article img { width: 100%;}
+	article h1 {font-size: 31px;}
+	article h2 {font-size: 24px;}
+	article h3 {font-size: 15px;}
+	article h4 {font-size: 18px;}
+	article p {font-size: 16px;}
+	article blockquote {font-size: 16px;}
+	article ul { ;font-size: 16px;}
+
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+article > * { width: calc(100% - 40px); }
+article img { width: 100%; }
+article h1 {font-size: 31px;}
+article h2 {font-size: 24px;}
+article h3 {font-size: 15px;}
+article h4 {font-size: 18px;}
+article p {font-size: 16px;}
+article blockquote {font-size: 16px;}
+article ul {font-size: 16px;}
+
+
+
+}
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+body { min-width: 320px; }
+article > * { width: calc(100% - 40px); }
+article img { width: 100%;}
+article h1 { font-size: 18px;}
+article h2 { font-size: 14px;}
+article h3 { font-size: 11px;}
+article p { font-size: 10px;}
+}
