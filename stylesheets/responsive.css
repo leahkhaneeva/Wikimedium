@@ -37,8 +37,8 @@ article ul {font-size: 16px;}
 body { min-width: 320px; }
 article > * { width: calc(100% - 40px); }
 article img { width: 100%;}
-article h1 { font-size: 18px;}
+/* article h1 { font-size: 18px;}
 article h2 { font-size: 14px;}
 article h3 { font-size: 11px;}
-article p { font-size: 10px;}
+article p { font-size: 10px;} */
 }
